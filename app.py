@@ -1,4 +1,4 @@
-!pip install streamlit
+#!pip install streamlit
 import streamlit as st
 import numpy as np, joblib, json
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
@@ -52,3 +52,4 @@ if st.button("🔍 Analyze Sentiment"):
         st.markdown(f"### Predicted Sentiment: **{sentiment}**")
         st.write(f"**VADER compound:** {vader_score:.3f}")
         st.write(f"**TextBlob polarity:** {tb_score:.3f}")
+
