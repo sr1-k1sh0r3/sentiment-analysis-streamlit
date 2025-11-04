@@ -1,0 +1,8 @@
+streamlit
+vaderSentiment
+textblob
+lightgbm
+sentence-transformers
+scikit-learn
+joblib
+numpy
