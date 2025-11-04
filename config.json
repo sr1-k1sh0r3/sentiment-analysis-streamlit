@@ -1,0 +1,9 @@
+{
+  "sbert_model_name": "all-MiniLM-L6-v2",
+  "tfidf_max_features": 3000,
+  "use_lexicon": true,
+  "lexicon_columns": [
+    "vader_compound",
+    "textblob_polarity"
+  ]
+}
